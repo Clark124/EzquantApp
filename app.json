@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "EzquantApp",
-    "slug": "EzquantApp",
+    "name": "经典战法",
+    "slug": "ezquant-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,33 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pushu.ezquantapp",
+      "associatedDomains": [
+        "applinks:m.ezquant.cn"
+      ],
+      "buildNumber": "6"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#2870d6"
+      },
+      "package": "com.pushu.ezquantapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c4b8be07-de40-497f-a7b4-cc64f205ad0c"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c4b8be07-de40-497f-a7b4-cc64f205ad0c"
     }
   }
 }
