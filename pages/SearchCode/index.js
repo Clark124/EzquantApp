@@ -89,6 +89,7 @@ export default function SearchSymbol({navigation,route}) {
                     onChangeText={text => {
                         debounceBtn(text)
                     }}
+                    placeholder='请输入股票代码'
                    
                 />
             </View>
